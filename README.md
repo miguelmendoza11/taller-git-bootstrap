@@ -8,8 +8,8 @@ HTML y [Bootstrap 5](https://getbootstrap.com/) (cargado por CDN, sin instalar n
 | Integrante | GitHub |
 |------------|--------|
 | Miguel Angel Mendoza | [@miguelmendoza11](https://github.com/miguelmendoza11) |
-| Juan | [@JuanMR2006](https://github.com/JuanMR2006) |
-| Juan | [@JuanSCC8](https://github.com/JuanSCC8) |
+| Juan Jose Montezuma | [@JuanMR2006](https://github.com/JuanMR2006) |
+| Juan Sebastian Camues | [@JuanSCC8](https://github.com/JuanSCC8) |
 
 ## Estructura
 
@@ -27,12 +27,12 @@ Abrir `index.html` en el navegador. No necesita servidor ni instalación.
 
 ## Flujo de trabajo con Git
 
-- `main`: versión estable. Solo recibe merges desde `develop`.
-- `develop`: rama de integración del equipo.
-- `feature/<nombre>`: cada funcionalidad nueva. Sale de `develop` y vuelve por Pull Request.
-- `fix/<nombre>`: corrección de errores. Sale de `develop` y vuelve por Pull Request.
+- `main`: versión estable. Solo recibe merges desde `Develop`.
+- `Develop`: rama de integración del equipo.
+- `feature/<nombre>`: cada funcionalidad nueva. Sale de `Develop` y vuelve por Pull Request.
+- `fix/<nombre>`: corrección de errores. Sale de `Develop` y vuelve por Pull Request.
 
-Nadie hace commit directo en `main` ni en `develop`, y nadie aprueba su propio Pull Request.
+Nadie hace commit directo en `main` ni en `Develop`, y nadie aprueba su propio Pull Request.
 
 ### Convención de commits
 
